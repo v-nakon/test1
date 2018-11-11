@@ -1,4 +1,4 @@
-body {
+.container, .head {
   margin: auto;
   width: 600px;
 }
@@ -10,7 +10,7 @@ ul {
   padding-left: 0;
 }
 
-.header {
+.head {
   background: #F2F2F2;
   border: 2px solid #D8D8D8;
   border-radius: 5px;
@@ -28,12 +28,9 @@ a:hover {background: white}
 
 .logo {
   background: white;
-  font-family: 'Lobster';
+  font-family: 'Lobster', 'Arial';
   float:left;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 0.9em;
+  padding: 1em 1em 0.9em 1em;
   }
   
 #slides{
