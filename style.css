@@ -1,4 +1,4 @@
-.container, .head {
+.container {
   margin: auto;
   width: 600px;
 }
@@ -28,7 +28,7 @@ a:hover {background: white}
 
 .logo {
   background: white;
-  font-family: 'Lobster', 'Arial';
+  font-family: 'Lobster', sans-serif;
   float:left;
   padding: 1em 1em 0.9em 1em;
   }
