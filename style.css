@@ -37,7 +37,7 @@ a:hover {background: white}
   position: relative;
   height: 150px;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 0 2em;
   list-style-type: none;
 }
 
@@ -98,6 +98,7 @@ input[type=submit] {
 	background-color: #1E90FF;
 	font-weight: bold;
 	width: 120px;
+	margin: 0 0 1rem;
 }
 
 input[type=text] {
