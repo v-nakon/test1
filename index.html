@@ -26,9 +26,9 @@
         <li class="slide">Slide 3</li>
       </ul>
 	  <h2>Say something</h2>
-	  <strong><p class="say">Say something clever bro</p></strong>
+	  <p class="say"><strong>Say something clever bro</strong></p>
 	  
-	  <form onsubmit="return false">
+	  <form>
 	    <input id="input_text" type="text" name="input_text">
 		
 		<select id="color_text" name="color_text">
@@ -38,7 +38,8 @@
           <option value="grey">Grey</option>
         </select>
 		
-		<input type="submit" value="SAY" onclick="getText()">
+		
+		<input id="submit" type="submit" value="SAY">
 		<textarea id="result_text"></textarea>
 	  </form>
   </div>

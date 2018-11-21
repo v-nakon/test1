@@ -8,15 +8,14 @@ function nextSlide(){
     slides[currentSlide].className = 'slide showing';
 }
 
-$("body").on("mouseover", "slide", function(){
-  this.play();
-  $( this ).css( "background-color", "black" );
-});
 
-
-function getText() {
+function getText(event) {
     var input_text = document.getElementById("input_text").value;
     document.getElementById("result_text").innerHTML = input_text;
 	var e = document.getElementById("color_text");
 	result_text.style.color = e.options[e.selectedIndex].value;
+	event.preventDefault();
 }
+
+var el = document.getElementById("submit");
+el.addEventListener("click", getText, false);
